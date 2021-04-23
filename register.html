@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>STUDENT RECORD MANAGEMENT SYSTEM</title>
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Header Start -->
+            <div class="header home">
+                <div class="container-fluid">
+                    <div class="header-top row align-items-center">
+                        <div class="col-lg-3">
+                            <div class="brand">
+                                <a href="index.html">
+                                    STUDENT RECORD MANAGEMENT SYSTEM
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="navbar navbar-expand-lg bg-light navbar-light">
+                                
+
+                                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                    <div class="navbar-nav ml-auto">
+                                        <a href="register.html" class="nav-item nav-link active">Add Student</a>
+                                         <a href="search.html" class="nav-item nav-link active">Search Student</a>
+                                         <a href="textmessage.html" class="nav-item nav-link active">chat</a>
+                                         <a href="#" class="nav-item nav-link active">Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero row align-items-center">
+                        <div class="col-md-5">
+                            <h2>REGISTRATION</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form" align="center">
+				<!-- Delete content start -->
+             <form action="regcon.jsp">             
+			<table width="100%" cellspacing="2"  align="center" border="0">
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td>:</td>
+                        <td><input type="text" name="fname" style="color:white;" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>:</td>
+                        <td>
+				<input type="radio" id="male" name="gender" value="male">
+  				<label for="male">Male</label>
+  				<input type="radio" id="female" name="gender" value="female">
+  				<label for="female">Female</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>DOB</td>
+                        <td>:</td>
+                        <td><input type="date" id="birthday" style="color:white;" size="25" name="dob"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Password</td>
+                        <td>:</td>
+                        <td><input type="password" name="passwrd" style="color:white;" size="25"></td>
+                    </tr>
+
+                    <tr>
+                        <td>E-mail</td>
+                        <td>:</td>
+                        <td><input type="text" name="email" style="color:white;" size="25"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Mobile</td>
+                        <td>:</td>
+                        <td><input type="text" name="mobile" style="color:white;" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td>:</td>
+                        <td>
+                            <select length="25" name="city">
+                                <option>Select</option>
+                                <option value="chennai">Chennai</option>
+                                <option value="coimbatore">Coimbatore</option>
+                                <option value="erode">Erode</option>
+                                <option value="trichy">Trichy</option>
+                                <option value="salem">Salem</option>
+                                <option value="banglore">Banglore</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>State</td>
+                        <td>:</td>
+                        <td>
+                            <select length="25" name="state">
+                                <option>Select</option>
+                                <option value="tamilnadu">Tamilnadu</option>
+                                <option value="karnataka">Karnataka</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="center">
+                            <input type="submit"  value="submit" style="color:white;">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+				<!-- Delete content end --> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </body>
+</html>
